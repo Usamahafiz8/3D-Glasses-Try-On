@@ -1,0 +1,27 @@
+{
+  "name": "glasses-three",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tensorflow-models/face-landmarks-detection": "^0.0.2",
+    "@tensorflow/tfjs": "^2.4.0",
+    "@tensorflow/tfjs-backend-cpu": "^4.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.123.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@types/three": "^0.155.1",
+    "@vitejs/plugin-react": "^4.0.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}

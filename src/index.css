@@ -1,0 +1,18 @@
+/* .canvas-container {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.canvas-container canvas {
+  position: absolute;
+  left: 0;
+  width: auto;
+  height: auto;
+} */
+
+canvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 7;
+}
